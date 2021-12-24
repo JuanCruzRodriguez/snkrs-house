@@ -1,0 +1,54 @@
+.header{
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    img:hover{
+        @include transform-scale(106%,400ms);
+    }
+    table{
+        border-spacing: 0em;
+        border: solid;
+        text-align: center;
+        border-width: 1px;
+        th{
+            padding: 1em;
+            border: solid;
+            text-align: center;
+            border-width: 1px;
+        }
+        td{
+            padding: 2em;
+            text-align: center;
+            border: solid;
+            border-width: 1px;
+        }
+    }
+    .header__buttons{
+        background-color: transparent;
+        border: none;
+    }
+    div{
+        button:hover{
+            @include transform-scale(108%,200ms);
+        }
+    }
+    form{
+        .header__searchbar{
+            border-radius: 2em;
+        }
+        .header__searchbutton{
+            background-color: transparent;
+            position: absolute;
+            margin-top: 0.4em ;
+            margin-left: 15.6em;
+            &:hover{
+                color: black;
+                background-color: transparent;
+                @include transform-scale(106%,100ms);
+            }
+        }
+    }
+}

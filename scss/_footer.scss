@@ -1,0 +1,56 @@
+.footer{
+    .footer__newsletter{
+        margin-top: 1em;
+        border-bottom: solid;
+        border-top:solid;
+        border-width: 1px;
+        padding: 1em;
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:2%;
+            text-align: center;
+            label{
+                padding-right: 2em;
+            }
+            input{
+                border-radius: 0.5em;
+                padding-left: 0.5em;
+            }
+            button{
+                background-color: transparent;
+                border: none;
+                padding-left: 0.5vw;
+                &:hover{
+                    @include transform-scale(108%,150ms);
+                }
+            }
+        } 
+    }
+    .footer__info{
+        display: flex;
+        justify-content: space-between;
+        padding: 3% 10%;
+        section{
+            display: flex;
+            align-items: center;
+            img{
+                padding: 0 3px;
+            }
+            h4{
+                padding:0 5px;
+            }
+        }
+        .footer__redes{
+            a {
+                i{
+                    padding: 0 4px;
+                    &:hover{
+                        @include transform-scale(108%,150ms);
+                    }
+                }
+            }    
+        }
+    }
+}

@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+.bg-black {
+  background-color: black; }
+
+* {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1em; }
+
+body {
+  color: white; }
+  body a {
+    color: white; }
+    body a:hover {
+      text-decoration: underline; }
+  body h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2em; }
+  body table th {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.2em; }
+  body .main {
+    color: black; }
+    body .main a {
+      color: black; }
+    body .main h1 {
+      font-family: 'Merriweather', serif;
+      font-weight: 900;
+      font-size: 2em; }
+    body .main h2 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.25em; }
+    body .main h3 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.25em; }
+    body .main .main__section {
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2.6em; }
+    body .main article h2 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.1em; }
+    body .main article h3 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.1em; }
+    body .main article p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      font-size: 1.25em; }
+    body .main article .productos__marca--size {
+      font-family: 'Merriweather', serif;
+      font-weight: 300;
+      font-size: 0.8em; }
+  body .not-found div h1 {
+    color: #e6e6e6;
+    font-size: 4em; }
+  body .not-found div a {
+    color: #c8c8c8;
+    text-decoration: none; }
+    body .not-found div a:hover {
+      text-decoration: none;
+      color: white; }
+  body .footer {
+    font-size: 0.8em;
+    text-decoration: none; }
+    body .footer a {
+      text-decoration: none;
+      color: #c8c8c8; }
+      body .footer a:hover {
+        color: #e6e6e6;
+        text-decoration: underline; }
+    body .footer form {
+      color: #c8c8c8; }
+      body .footer form label {
+        font-size: 1.2rem; }
+    body .footer h2 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #c8c8c8; }
+    body .footer h3 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #c8c8c8; }
+    body .footer h4 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #c8c8c8; }
+    body .footer nav ul li {
+      list-style-type: none;
+      font-size: 1.1em;
+      color: #c8c8c8; }
+    body .footer .footer__newsletter {
+      font-size: 1.6em; }
+      body .footer .footer__newsletter label {
+        font-size: 1em; }
+      body .footer .footer__newsletter input {
+        font-size: 0.9em; }
+      body .footer .footer__newsletter form button {
+        color: white;
+        font-size: 1.4em; }
+    body .footer .footer__info section {
+      font-size: 1.2em; }
+    body .footer .footer__redes {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.1em;
+      color: #c8c8c8;
+      text-align: center; }
+      body .footer .footer__redes a i {
+        font-size: 2.5em; }
+
+.header {
+  padding: 1% 1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  .header img:hover {
+    transform: scale(106%);
+    transition-duration: 400ms; }
+  .header table {
+    border-spacing: 0em;
+    border: solid;
+    text-align: center;
+    border-width: 1px; }
+    .header table th {
+      padding: 1em;
+      border: solid;
+      text-align: center;
+      border-width: 1px; }
+    .header table td {
+      padding: 2em;
+      text-align: center;
+      border: solid;
+      border-width: 1px; }
+  .header .header__buttons {
+    background-color: transparent;
+    border: none; }
+  .header div button:hover {
+    transform: scale(108%);
+    transition-duration: 200ms; }
+  .header form .header__searchbar {
+    border-radius: 2em; }
+  .header form .header__searchbutton {
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0.4em;
+    margin-left: 15.6em; }
+    .header form .header__searchbutton:hover {
+      color: black;
+      background-color: transparent;
+      transform: scale(106%);
+      transition-duration: 100ms; }
+
+.nav a {
+  text-decoration: none;
+  color: #c8c8c8; }
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #c8c8c8; }
+  .nav ul li {
+    font-size: 16px;
+    background-color: black;
+    width: 100%; }
+    .nav ul li ul {
+      display: none; }
+    .nav ul li:hover a {
+      text-decoration: none; }
+    .nav ul li:hover ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      background-color: black;
+      padding: 2%; }
+      .nav ul li:hover ul li:hover a {
+        text-decoration: none; }
+
+#snkrsH1 {
+  display: none; }
+
+.main {
+  background-color: white;
+  height: auto;
+  padding-top: 1em;
+  padding-bottom: 4em; }
+  .main .main__section {
+    background-color: #c5c7aa;
+    text-align: center; }
+  .main h1 {
+    padding: 4vh 2vw; }
+  .main h2 {
+    padding: 4vh 2vw; }
+  .main h3 {
+    padding: 3vh 2vw; }
+  .main p {
+    padding: 1vh 2vw; }
+  .main ul {
+    padding-left: 3.2vw; }
+  .main ol {
+    padding-left: 3.2vw; }
+  .main form {
+    padding: 1vh 2vw; }
+  .main fieldset {
+    padding: 2% 5%;
+    margin: 0 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .main fieldset input {
+      margin-bottom: 1em; }
+    .main fieldset select {
+      margin-bottom: 1em; }
+    .main fieldset p {
+      padding: 0; }
+  .main .main__ordenar {
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%; }
+  .main .productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    padding: 2% 12%; }
+    .main .productos article {
+      border: solid;
+      border-width: 1px;
+      border-color: #505050;
+      padding: 2%;
+      background-color: white; }
+      .main .productos article:hover {
+        border: solid;
+        padding: 2%;
+        cursor: pointer;
+        transform: scale(106%);
+        transition-duration: 250ms; }
+      .main .productos article h2 {
+        padding: 0; }
+      .main .productos article h3 {
+        padding: 0; }
+      .main .productos article p {
+        padding: 0; }
+      .main .productos article form p {
+        padding: 0; }
+      .main .productos article img {
+        width: 100%; }
+
+.not-found {
+  margin: auto;
+  padding: auto;
+  background-color: black;
+  background-size: 65% auto;
+  background-image: url(https://sneakerhead.com.ar/wp-content/uploads/como-limpiar-las-zapatillas.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right; }
+  .not-found div {
+    display: flex;
+    flex-direction: column;
+    padding: 10.2% 0;
+    background: linear-gradient(90deg, black, rgba(0, 0, 0, 0.925), transparent);
+    height: 100%; }
+    .not-found div h1 {
+      text-align: center; }
+    .not-found div a {
+      margin-left: 16.6%;
+      background-color: transparent;
+      border: solid;
+      border-color: #c8c8c8; }
+      .not-found div a:hover {
+        border-color: white;
+        background-color: transparent; }
+
+.footer .footer__newsletter {
+  margin-top: 1em;
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 1px;
+  padding: 1em; }
+  .footer .footer__newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center; }
+    .footer .footer__newsletter form label {
+      padding-right: 2em; }
+    .footer .footer__newsletter form input {
+      border-radius: 0.5em;
+      padding-left: 0.5em; }
+    .footer .footer__newsletter form button {
+      background-color: transparent;
+      border: none;
+      padding-left: 0.5vw; }
+      .footer .footer__newsletter form button:hover {
+        transform: scale(108%);
+        transition-duration: 150ms; }
+
+.footer .footer__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 10%; }
+  .footer .footer__info section {
+    display: flex;
+    align-items: center; }
+    .footer .footer__info section img {
+      padding: 0 3px; }
+    .footer .footer__info section h4 {
+      padding: 0 5px; }
+  .footer .footer__info .footer__redes a i {
+    padding: 0 4px; }
+    .footer .footer__info .footer__redes a i:hover {
+      transform: scale(108%);
+      transition-duration: 150ms; }
+
+@media only screen and (max-width: 768px) {
+  .header div a img {
+    padding-right: 50px; }
+  .main .productos {
+    grid-template-columns: repeat(1, 1fr); }
+  .main .main__section h1 {
+    font-size: 1.5em; }
+  .main form fieldset {
+    margin: 0 25%; }
+  .footer .footer__newsletter form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; }
+    .footer .footer__newsletter form label {
+      padding-left: 2em; }
+  .footer .footer__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center; } }
+
+@media only screen and (min-width: 768px) and (max-width: 978px) {
+  .main .productos {
+    grid-template-columns: repeat(2, 1fr); }
+  .main form fieldset {
+    margin: 0 30%; } }

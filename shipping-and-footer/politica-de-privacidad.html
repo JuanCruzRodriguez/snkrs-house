@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>Politica de privacidad</title>
+
+    <meta name="description" content="Normas de privacidad y seguridad de SNKRS HOUSE y del cliente"/>
+    <meta name="keywords" content="zapatilla, nike, adidas, hombre, mujer, politica, privacidad, seguridad"/>
+    <meta name="author" content="Juan Cruz Rodriguez"/>
+
+</head>
+
+<body class="container-fluid">
+    <!--Abre Header-->
+    <header class="header row bg-black">
+        <button class="navbar-toggler col-2 navbar-expand-md navbar-dark py-3 ps-5 row sticky-top d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-3 d-flex justify-content-center d-md-block"> 
+            <a href="../index.html"><img src="../multimedia/imagenes/snkrs-logo.png" alt="logo" width="200px"></a>
+        </div>  
+        <div class="col-4 d-none d-md-flex">  
+            <form class="d-flex my-2 my-md-0" action="../404.html">
+                <input class="form-control mr-2 pe-5 header__searchbar" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="text-secondary border-0 header__searchbutton" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>      
+        <div class="col-1 d-flex justify-content-end">
+            <button type="button" class="header__buttons">
+                <a href="../login/iniciar-sesion.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30px" viewBox="0 0 8 8" fill="white" class="me-3">
+                        <path d="M4 0c-1.1 0-2 1.12-2 2.5s.9 2.5 2 2.5 2-1.12 2-2.5-.9-2.5-2-2.5zm-2.09 5c-1.06.05-1.91.92-1.91 2v1h8v-1c0-1.08-.84-1.95-1.91-2-.54.61-1.28 1-2.09 1-.81 0-1.55-.39-2.09-1z">
+                    </svg>
+                </a>
+            </button>
+
+            <button type="button" class="header__buttons" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38px" viewBox="0 0 8 8" fill="white">
+                <path d="M.34 0a.5.5 0 0 0 .16 1h1.5l.09.25.41 1.25.41 1.25c.04.13.21.25.34.25h3.5c.14 0 .3-.12.34-.25l.81-2.5c.04-.13-.02-.25-.16-.25h-4.44l-.38-.72a.5.5 0 0 0-.44-.28h-2a.5.5 0 0 0-.09 0 .5.5 0 0 0-.06 0zm3.16 5c-.28 0-.5.22-.5.5s.22.5.5.5.5-.22.5-.5-.22-.5-.5-.5zm3 0c-.28 0-.5.22-.5.5s.22.5.5.5.5-.22.5-.5-.22-.5-.5-.5z" transform="translate(0 1)" /></svg>
+            </button>
+
+            <div class="offcanvas offcanvas-end bg-dark w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h2>Mi carrito</h2>
+                    <button type="button" class="btn-close text-reset btn-secondary bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <table class="w-100"> 
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                        </tr>
+                        <tr>
+                            <td>-producto-</td>
+                            <td>-$$$$$-</td>
+                            <td>-X-</td>
+                            <td>-$$$$$-</td>
+                        </tr>
+                    </table>
+                    <div class="d-flex justify-content-end">
+                        <a href="../todos-los-productos.html"><button type="button" class="btn btn-secondary mx-2 mt-3" data-bs-dismiss="offcanvas">Seguir comprando</button></a>
+                        <a href="../cart/carrito.html"><button type="button" class="btn btn-primary mx-2 mt-3">Finalizar compra</button></a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Cierra Header-->
+
+    <!--Abre Nav-->
+    <nav class="nav navbar navbar-expand-md navbar-dark bg-black py-3 ps-5 row sticky-top fixed-top">
+        <div class="collapse navbar-collapse row justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown col text-center">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categorías</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../todos-los-productos.html">Todos los productos</a></li>
+                        <li><a class="dropdown-item" href="../categories/moda.html">Moda</a></li>
+                        <li><a class="dropdown-item" href="../categories/running.html">Running</a></li>
+                        <li><a class="dropdown-item" href="../categories/training.html">Training</a></li>
+                        <li><a class="dropdown-item" href="../categories/skateboarding.html">Skateboarding</a></li>
+                        <li><a class="dropdown-item" href="../categories/futbol.html">Futbol</a></li>
+                        <li><a class="dropdown-item" href="../categories/ojotas.html">Ojotas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="../categories/hombre.html">Hombre</a>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="../categories/mujer.html">Mujer</a>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="../categories/nino.html">Niño</a>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="../categories/nina.html">Niña</a>
+                </li>
+                <li class="nav-item dropdown col text-center">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Marcas</a>
+                    <ul class="dropdown-menu ms-4" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../categories/nike.html">Nike</a></li>
+                        <li><a class="dropdown-item" href="../categories/adidas.html">Adidas</a></li>
+                        <li><a class="dropdown-item" href="../categories/puma.html">Puma</a></li>
+                        <li><a class="dropdown-item" href="../categories/reebook.html">Reebook</a></li>
+                        <li><a class="dropdown-item" href="../categories/converse.html">Converse</a></li>
+                        <li><a class="dropdown-item" href="../categories/vans.html">Vans</a></li>
+                        <li><a class="dropdown-item" href="../categories/new-balance.html">New Balance</a></li>
+                        <li><a class="dropdown-item" href="../categories/fila.html">Fila</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Cierra Nav-->
+    
+    <main class="main">
+        <h1>Política de privacidad</h1>
+
+        <h2>Datos del cliente: Registro, modificación, política de seguridad y confidencialidad</h2>
+
+        <p>Para realizar sus compras en nuestras tiendas o acceder a determinados servicios, deberá <b>registrar</b> sus datos personales y elegir una contraseña que le permitirá acceder a todas aquellas zonas que requieran una identificación previa. Esto evitará que, en lo sucesivo, tenga que volver a cumplimentarlos. En el momento en que usted se registra en nuestro servidor seguro o realiza un pedido, sus datos personales, domiciliarios, y los relativos a su forma de pago, son incorporados a nuestra base de datos, utilizándose únicamente para tramitar el pedido, así como para enviar información sobre ofertas y servicios que puedan resultar de su interés. En cualquier momento podrá <b>modificar</b> los datos de su registro de cliente (cambio de domicilio, teléfono, etc.) o solicitarnos el recordatorio de su contraseña si la ha olvidado.</p>
+        <p>La información suministrada por el <b>Usuario</b> en el Sitio conformará una base de datos que será utilizada únicamente para la finalidad descripta, de acuerdo a los lineamientos de la Ley 25.326.</p>
+        <p>La información consignada de ninguna manera será cedida a terceras personas ajenas al Sitio. El <b>Usuario</b>, podrá en cualquier momento ejercer los derechos de acceso, rectificación y supresión de los datos consignados en la <b>Base de Datos</b> y asimismo deberá comunicar cualquier cambio de los mismos al Sitio, a fin de mantener los mismos exactos y actualizados.</p>
+        <p>El <b>Usuario</b> puede solicitar que lo excluyan de las listas para el envío de información promocional o publicitaria haciendo click en el vínculo <b>"Cancelar Suscripción"</b> ubicado en la parte inferior de los correo electrónicos enviados para tal fin.</p>
+        <p>Conforme a nuestra <b>seguridad y confidencialidad</b>, en <b>SNKRS HOUSE</b> estamos especialmente interesados en ofrecer a nuestros clientes el más alto nivel de seguridad y proteger la confidencialidad de los datos que nos aportan. Por ello, las transacciones comerciales son realizadas en un entorno de servidor seguro que asegura el <b>mayor nivel de protección</b> a las comunicaciones.</p>
+        <p>Disponemos de un sistema de avisos en pantalla que identifican los errores cometidos en la introducción de datos y permiten al cliente corregirlos en todo momento. Los datos correspondientes al producto o servicio contratado se archivan electrónicamente y los clientes pueden acceder a ellos en cualquier momento.</p>
+        <p>Lo expuesto en un todo de acuerdo con el artículo 14, inciso 3 de la Ley Nº 25.326, que establece que el titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto. Los <b>Usuarios</b> garantizan y responden, en cualquier caso, de la veracidad, exactitud, vigencia y autenticidad de la información personal facilitada, y se comprometen a mantenerla actualizada. Una vez registrado en el Sitio, el <b>Usuario</b> podrá revisar y cambiar la información que nos ha enviado durante el proceso de registración.</p>
+        <p>En determinados casos, mantendremos en nuestros archivos información personal que se nos ha solicitado ser retirada, a los fines de resolver disputas o reclamos, detectar problemas o incidencias y solucionarlos, y dar cumplimiento a lo dispuesto en los <b>Términos y Condiciones</b> por un período de tiempo determinado por la ley. En cualquier caso, la información personal de un <b>Usuario</b> no será inmediatamente retirada de nuestros archivos por motivos legales y técnicos, incluyendo sistemas de soportes de seguridad. Por tanto, no se debe esperar que toda la información personal sea definitivamente borrada de nuestras bases de datos.</p>
+        <p><b>SNKRS HOUSE</b> podrá modificar en cualquier momento los términos y condiciones de su Política de Privacidad y/o las prácticas de envío de e-mails. Si se decide introducir algún cambio material a nuestra <b>Política de Privacidad</b>, se notificará publicando una versión actualizada de la Política de Privacidad en esta sección o mediante el envío de un e-mail o informándolo en la página principal u otras secciones del Sitio para mantener al <b>Usuario</b> actualizado de los cambios realizados.</p>
+        <p>Si <b>SNKRS HOUSE</b> decide realizar cambios materiales en la forma en que administra la información personal del <b>Usuario</b>, se notificará por e-mail para que el <b>Usuario</b> pueda tomar una decisión informada respecto sobre aceptar o no que dicha información personal sea utilizada de esa forma. </p>
+        <p>Si los Usuarios nos envían correspondencia, sean correos electrónicos o cartas, o si otros <b>Usuarios</b> o terceros nos envían correspondencia sobre las actividades o sobre los mensajes de otros <b>Usuarios</b> en el Sitio, podemos recoger y almacenar tal información personal, incluyendo direcciones de mail.</p> 
+        <p><b>SNKRS HOUSE</b> considera a los datos de sus <b>Usuarios</b> como un activo que deber ser protegido de cualquier pérdida o acceso no autorizado. Se emplean diversas técnicas de seguridad para proteger tales datos de accesos no autorizados por <b>Usuarios</b> dentro o fuera de nuestra compañía. Sin embargo, es necesario tener muy en cuenta que la seguridad perfecta no existe en Internet. Por ello <b>SNKRS HOUSE</b> no se hace responsable por interceptaciones ilegales o violaciones de sus sistemas o bases de datos por parte de personas no autorizadas. <b>SNKRS HOUSE</b> tampoco se hace responsable por la indebida utilización de la información obtenida por esos medios.</p>
+        <p><b>SNKRS HOUSE</b> coopera con las autoridades competentes y con otros terceros para garantizar el cumplimiento de las leyes, por ejemplo en materia de protección de derechos de propiedad industrial e intelectual, prevención del fraude y otras materias.</p>
+        <p><b>SNKRS HOUSE</b> mantendrá la confidencialidad de la información recibida por el usuario, en tanto tal información no haya sido requerida por alguna autoridad competente para ello. Pudiendo revelar la información personal de sus <b>Usuarios</b> bajo requerimiento de la autoridades judiciales o gubernamentales competentes para efectos de investigaciones conducidas por ellas o a efectos de cumplir la normativa aplicable y cooperar con las autoridades competentes en la medida en que discrecionalmente lo entendamos necesario y adecuado en relación con cualquier investigación de un ilícito o un fraude, infracción de derechos de propiedad industrial o intelectual, u otra actividad que sea ilegal o que pueda exponernos o a nuestros <b>Usuarios</b> a cualquier responsabilidad legal.</p>
+        
+        <h2>Confidencialidad: Normas:</h2>
+                
+        <p>Los usuarios autorizan a <b>SNKRS HOUSE</b> a grabar o registrar por cualquier medio la información que ingresen en el Sitio <b>SNKRS HOUSE</b> otorgando a dichas registraciones valor probatorio. <b>SNKRS HOUSE</b> no vende, cede o lucra de otra manera con su información personal. <b>SNKRS HOUSE</b> solo se reserva el derecho de trasmitir información específica a los distintos agentes y profesionales asociados al servicio que brinda, en caso que el usuario eventualmente desee celebrar contratos de compraventa de productos o de prestación de servicios o cualquier otro tipo de contrato con los agentes y profesionales asociados.</p>
+                
+        <h2>Seguridad: Normas:</h2>
+                
+        <p>Todo nuestro equipamiento informático se encuentra en una zona de <b>acceso restringido</b> a personas previamente autorizadas. Todos los accesos a la base de datos, tanto desde el Sitio como desde nuestras oficinas están regulados por mecanismos de <b>seguridad informática</b> que garantizan su integridad y privacidad.</p>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__newsletter">
+            <form action="../404.html">
+                <label for="email">¡Enterate de nuestras promociones antes que nadie!</label>
+                <input type="email" id="email" placeholder="Tu correo electrónico" name="email">
+                <button type="submit">
+                    <i class="far fa-arrow-alt-circle-right"></i>
+                </button>
+            </form> 
+        </section>
+        <section class="footer__info">
+            <nav>
+                <h3>Nosotros</h3>    
+                <ul>  
+                    <li><a href="../nosotros.html">¿Quiénes somos?</a></li>    
+                    <li><a href="politica-de-privacidad.html">Politica de privacidad</a></li>   
+                </ul>
+            </nav>    
+            <nav>  
+                <h3>Ayuda</h3>    
+                <ul>  
+                    <li><a href="../preguntas-frecuentes.html#comoComprar">¿Cómo comprar?</a></li>    
+                    <li><a href="../preguntas-frecuentes.html#mediosDePago">Medios de pago</a></li>   
+                    <li><a href="../preguntas-frecuentes.html#costosDeEnvio">Costos de envío</a></li>   
+                    <li><a href="../preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+                </ul>
+            </nav>  
+            <nav>
+                <h3>Atención al cliente</h3>    
+                <ul>  
+                    <li><a href="https://web.whatsapp.com/send?phone=+5492215137609&text=Hola%20Coderhouse!%20C%C3%B3mo%20est%C3%A1n?%20Tengo%20una%20consulta%20sobre" target="_blank">+54 9 11 1234-5678</a></li>    
+                    <li><a href="https://goo.gl/maps/5fcGT1KgZugcbyL1A" target="_blank">Calle 1234</a></li>   
+                    <li>Lunes a Viernes de 9 a 18 hs</li>   
+                    <li><a href="../contactanos.html">Contactanos</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__redes">
+                <h3>Seguinos</h3> 
+                <a href="https://www.instagram.com/coderhouse" target="_blank"><i class="fab fa-instagram"></i></a> 
+                <a href="https://www.facebook.com/CoderHouse" target="_blank"><i class="fab fa-facebook-square"></i></a> 
+                <a href="https://twitter.com/CODERHOUSE" target="_blank"><i class="fab fa-twitter"></i></a> 
+            </nav>
+        </section>    
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

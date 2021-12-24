@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+body{
+    color: white;
+    a{
+        color: white;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    h1{
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+        font-size: 2em;
+    }
+    table{
+        th{
+            font-family: 'Merriweather', serif;
+            font-weight: 900;
+            font-size: 1.2em;
+        }
+    }
+    .main{
+        color: black;
+        a{
+            color: black;
+        }
+        h1{
+            font-family: 'Merriweather', serif;
+            font-weight: 900;
+            font-size: 2em;
+        }
+        h2{
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 1.25em;
+        }
+        h3{
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 1.25em;
+        }
+        .main__section{
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2.6em;
+        }
+        article{
+            h2{
+                font-family: 'Merriweather', serif;
+                font-weight: 700;
+                font-size: 1.1em;
+            }
+            h3{
+                font-family: 'Merriweather', serif;
+                font-weight: 700;
+                font-size: 1.1em;
+            }
+            p{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 900;
+                font-size: 1.25em;
+            }
+            .productos__marca--size{
+                font-family: 'Merriweather', serif;
+                font-weight: 300;
+                font-size: 0.8em;
+            }
+        }
+    }
+    .not-found{
+        div{
+            h1{
+                color: rgb(230, 230, 230);
+                font-size: 4em;
+            }
+            a{
+                color: rgb(200, 200, 200);
+                text-decoration: none;
+                &:hover{
+                    text-decoration: none;
+                    color: white;
+                }
+            }    
+        }    
+    }
+    .footer{
+        font-size: 0.8em;
+        text-decoration: none;
+        a{
+            text-decoration: none;   
+            color: rgb(200, 200, 200);
+            &:hover{
+                color: rgb(230, 230, 230);
+                text-decoration: underline;
+            }
+        }
+        form{
+            color: rgb(200, 200, 200);
+            label{
+                font-size: 1.2rem;
+            }
+        }
+        h2{
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: rgb(200, 200, 200);
+        }
+        h3{
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: rgb(200, 200, 200);
+        }
+        h4{
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: rgb(200, 200, 200);
+        }
+        nav{
+            ul{
+                li{
+                    list-style-type: none;  
+                    font-size: 1.1em;
+                    color: rgb(200, 200, 200);
+                }
+            }
+        }
+        .footer__newsletter{
+            font-size: 1.6em;
+            label{
+                font-size: 1em;
+            }
+            input{
+                font-size: 0.9em;
+            }
+            form{
+                button{
+                    color: white;
+                    font-size: 1.4em;
+                }
+            }
+        }
+        .footer__info{
+            section{
+                font-size: 1.2em;
+            }
+        }
+        .footer__redes{
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 1.1em;
+            color: rgb(200, 200, 200);
+            text-align: center;
+            a{
+                i{
+                    font-size: 2.5em;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

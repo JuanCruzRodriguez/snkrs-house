@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+body a{
+        color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+header{
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+header img:hover{
+    transform: scale(106%);
+    transition-duration: 400ms;
+}
+
+#navigationBar{
+    position: sticky;
+    top: 0%;
+    padding:2% 0;
+    background-color: black;
+}
+
+#navigationBar a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+#navigationBar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(200, 200, 200);
+}
+
+#navigationBar ul li {
+    font-size: 16px;
+    background-color: black;
+}   
+
+#navigationBar ul li ul{
+    display: none;
+}
+
+#navigationBar ul li:hover ul{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    background-color: black;
+    padding: 2%;
+}
+
+#navigationBar ul li:hover{
+    text-decoration: underline;
+}
+
+#snkrsH1{
+    display: none;
+}
+
+main{
+    background-color: white;
+    color: black;
+    height: auto;
+    padding-bottom: 4em;
+}
+
+.background-section{
+    background-color: rgb(197, 199, 170);
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.6em;
+    word-spacing: 0.3em;
+}
+
+main a{
+    color: black;
+}
+
+main h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2em;
+    padding: 4vh 2vw;
+}
+
+main h2{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    padding: 4vh 2vw;
+}
+
+main h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    padding: 3vh 2vw;
+}
+
+main p{
+    padding: 1vh 2vw;
+}
+
+main ul{
+    padding-left: 3.2vw;
+}
+
+main ol{
+    padding-left: 3.2vw;
+}
+
+main form{
+    padding: 1vh 2vw;
+}
+
+main article h2{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 0;
+}
+
+main article h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 0;
+}
+
+main article p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.25em;
+    padding: 0;
+}
+
+main form p{
+    padding: 0;
+}
+
+.size-marca{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+#ordenar{
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3em;
+    grid-row-gap: 3em;
+    padding:2% 4%;
+}
+
+article{
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(80, 80, 80);
+    padding: 2%;
+    background-color: white;
+}
+
+article img{
+    width: 100%;
+}
+
+article:hover{
+    border: solid;
+    padding: 2%;
+    transform: scale(106%);
+    cursor: pointer;
+    transition-duration: 250ms;
+}
+
+footer{
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;   
+    color: rgb(200, 200, 200);            
+}
+
+footer form{
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+footer form label{
+    font-size: 1.2rem;
+}
+
+footer h2{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+footer h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+footer h4{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+footer nav ul li{
+    list-style-type: none;  
+    font-size: 0.9rem;
+    color: rgb(200, 200, 200);
+}
+
+footer section form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2%
+}
+
+#newsletter{
+    border-bottom: solid;
+    border-top:solid;
+    border-width: 1px;
+    padding: 1em;
+    font-size: 1.6em;
+}
+
+#newsletter label{
+    padding-right: 2em;
+    font-size: 1em;
+}
+
+#newsletter input{
+    font-size: 0.9em;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+}
+
+#newsletter form button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 0.5vw;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 10%;
+}
+
+#info section{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#info section img{
+    padding: 0 3px;
+}
+
+#info section h4{
+    padding:0 5px;
+}
+
+#redes{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#redes a i{
+    padding: 0 4px;
+    font-size: 2em;
+}
+
+#redes a i:hover{
+    transform: scale(108%);
+    transition-duration: 150ms;
+}
+
+#redes h2{
+    padding:0 5px;
+}
+
+#redes h3{
+    padding:0 5px;
+}
+
+#redes h4{
+    padding:0 5px;
+}
+
+fieldset{
+    padding: 2% 5%;
+    margin: 0 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
+
+fieldset input{
+    margin-bottom: 1em;
+}
+
+fieldset select{
+    margin-bottom: 1em;
+}
+
+#buttoms{
+    display: flex;
+    justify-content: end;
+}
+
+table{
+    border-spacing: 0em;
+    border: solid;
+    text-align: center;
+    border-width: 1px;
+}
+
+table th{
+    padding: 1em;
+    border: solid;
+    text-align: center;
+    border-width: 1px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+table td{
+    padding: 2em;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+}
+
+.buttons-header{
+    background-color: transparent;
+    border: none;
+}
+
+body header div button:hover{
+    transform: scale(108%);
+    transition-duration: 200ms;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.buscador{
+    border-radius: 2em;
+}
+
+.button-buscador{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0.4em ;
+    margin-left: 15.6em;
+}
+
+.button-buscador :hover{
+    background-color: transparent;
+    color: black;
+    transform: scale(106%);
+    transition-duration: 100ms;
+}
+
+@media only screen and (max-width:768px) {
+    .productos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:978px) {
+    .productos{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width:978px) {
+    .lg-sticky-top{
+        position: sticky;
+        top: 0%;
+    }
+}
+
+

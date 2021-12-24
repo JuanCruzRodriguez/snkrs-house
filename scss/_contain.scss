@@ -1,0 +1,125 @@
+#snkrsH1{
+    display: none;
+}
+
+.main{
+    background-color: white;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    .main__section{
+        background-color: rgb(197, 199, 170);
+        text-align: center;
+    }
+    h1{
+        padding: 4vh 2vw;
+    }
+    h2{
+        padding: 4vh 2vw;
+    }
+    h3{
+        padding: 3vh 2vw;
+    }
+    p{
+        padding: 1vh 2vw;
+    }
+    ul{
+        padding-left: 3.2vw;
+    }
+    ol{
+        padding-left: 3.2vw;
+    }
+    form{
+        padding: 1vh 2vw;
+    }
+    fieldset{
+        padding: 2% 5%;
+        margin: 0 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        input{
+            margin-bottom: 1em;
+        }
+        select{
+            margin-bottom: 1em;
+        }
+        p{
+            padding: 0;
+        }
+    }
+    .main__ordenar{
+        display: flex;
+        justify-content: end;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 2em;
+        grid-row-gap: 2em;
+        padding:2% 12%;   
+        article{
+            border: solid;
+            border-width: 1px;
+            border-color: rgb(80, 80, 80);
+            padding: 2%;
+            background-color: white;
+            &:hover{
+                border: solid;
+                padding: 2%;
+                cursor: pointer;
+                @include transform-scale(106%,250ms);
+            }
+            h2{
+                padding: 0;
+            }
+            h3{
+                padding: 0;
+            }
+            p{
+                padding: 0;
+            }
+            form{ 
+                p{
+                padding: 0;
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }    
+    }
+}
+
+.not-found{
+    margin: auto;
+    padding:auto;
+    background-color: black ;
+    background-size: 65% auto;
+    background-image: url(https://sneakerhead.com.ar/wp-content/uploads/como-limpiar-las-zapatillas.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    div{
+        display: flex;
+        flex-direction: column;
+        padding: 10.2% 0;
+        background: linear-gradient(90deg, black,rgba(0, 0, 0, 0.925),transparent);
+        height: 100%;
+        h1{
+            text-align: center;
+        }
+        a{
+            margin-left: 16.6%;
+            background-color: transparent ;
+            border: solid;
+            border-color: rgb(200, 200, 200);
+            &:hover{
+                border-color: white;
+                background-color: transparent;
+            }
+        }
+    }
+}

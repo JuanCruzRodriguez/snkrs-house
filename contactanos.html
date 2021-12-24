@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Contactanos</title>
+
+    <meta name="description" content="Rellená el formulario para dejarnos tu consulta. Responderemos a la brevedad."/>
+    <meta name="keywords" content="consulta, contacto, nike, adidas, hombre, mujer"/>
+    <meta name="author" content="Juan Cruz Rodriguez"/>
+
+</head>
+
+<body class="container-fluid">
+    <!--Abre Header-->
+    <header class="header row bg-black">
+        <button class="navbar-toggler col-2 navbar-expand-md navbar-dark py-3 ps-5 row sticky-top d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-3 d-flex justify-content-center d-md-block"> 
+            <a href="index.html"><img src="multimedia/imagenes/snkrs-logo.png" alt="logo" width="200px"></a>
+        </div>  
+        <div class="col-4 d-none d-md-flex">  
+            <form class="d-flex my-2 my-md-0" action="404.html">
+                <input class="form-control mr-2 pe-5 header__searchbar" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="text-secondary border-0 header__searchbutton" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>      
+        <div class="col-1 d-flex justify-content-end">
+            <button type="button" class="header__buttons">
+                <a href="login/iniciar-sesion.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30px" viewBox="0 0 8 8" fill="white" class="me-3">
+                        <path d="M4 0c-1.1 0-2 1.12-2 2.5s.9 2.5 2 2.5 2-1.12 2-2.5-.9-2.5-2-2.5zm-2.09 5c-1.06.05-1.91.92-1.91 2v1h8v-1c0-1.08-.84-1.95-1.91-2-.54.61-1.28 1-2.09 1-.81 0-1.55-.39-2.09-1z">
+                    </svg>
+                </a>
+            </button>
+
+            <button type="button" class="header__buttons" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38px" viewBox="0 0 8 8" fill="white">
+                <path d="M.34 0a.5.5 0 0 0 .16 1h1.5l.09.25.41 1.25.41 1.25c.04.13.21.25.34.25h3.5c.14 0 .3-.12.34-.25l.81-2.5c.04-.13-.02-.25-.16-.25h-4.44l-.38-.72a.5.5 0 0 0-.44-.28h-2a.5.5 0 0 0-.09 0 .5.5 0 0 0-.06 0zm3.16 5c-.28 0-.5.22-.5.5s.22.5.5.5.5-.22.5-.5-.22-.5-.5-.5zm3 0c-.28 0-.5.22-.5.5s.22.5.5.5.5-.22.5-.5-.22-.5-.5-.5z" transform="translate(0 1)" /></svg>
+            </button>
+
+            <div class="offcanvas offcanvas-end bg-dark w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h2>Mi carrito</h2>
+                    <button type="button" class="btn-close text-reset btn-secondary bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <table class="w-100"> 
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                        </tr>
+                        <tr>
+                            <td>-producto-</td>
+                            <td>-$$$$$-</td>
+                            <td>-X-</td>
+                            <td>-$$$$$-</td>
+                        </tr>
+                    </table>
+                    <div class="d-flex justify-content-end">
+                        <a href="todos-los-productos.html"><button type="button" class="btn btn-secondary mx-2 mt-3" data-bs-dismiss="offcanvas">Seguir comprando</button></a>
+                        <a href="cart/carrito.html"><button type="button" class="btn btn-primary mx-2 mt-3">Finalizar compra</button></a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Cierra Header-->
+
+    <!--Abre Nav-->
+    <nav class="nav navbar navbar-expand-md navbar-dark bg-black py-3 ps-5 row sticky-top fixed-top">
+        <div class="collapse navbar-collapse row justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown col text-center">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categorías</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="todos-los-productos.html">Todos los productos</a></li>
+                        <li><a class="dropdown-item" href="categories/moda.html">Moda</a></li>
+                        <li><a class="dropdown-item" href="categories/running.html">Running</a></li>
+                        <li><a class="dropdown-item" href="categories/training.html">Training</a></li>
+                        <li><a class="dropdown-item" href="categories/skateboarding.html">Skateboarding</a></li>
+                        <li><a class="dropdown-item" href="categories/futbol.html">Futbol</a></li>
+                        <li><a class="dropdown-item" href="categories/ojotas.html">Ojotas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="categories/hombre.html">Hombre</a>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="categories/mujer.html">Mujer</a>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="categories/nino.html">Niño</a>
+                </li>
+                <li class="nav-item col text-center">
+                    <a class="nav-link" href="categories/nina.html">Niña</a>
+                </li>
+                <li class="nav-item dropdown col text-center">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Marcas</a>
+                    <ul class="dropdown-menu ms-4" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="categories/nike.html">Nike</a></li>
+                        <li><a class="dropdown-item" href="categories/adidas.html">Adidas</a></li>
+                        <li><a class="dropdown-item" href="categories/puma.html">Puma</a></li>
+                        <li><a class="dropdown-item" href="categories/reebook.html">Reebook</a></li>
+                        <li><a class="dropdown-item" href="categories/converse.html">Converse</a></li>
+                        <li><a class="dropdown-item" href="categories/vans.html">Vans</a></li>
+                        <li><a class="dropdown-item" href="categories/new-balance.html">New Balance</a></li>
+                        <li><a class="dropdown-item" href="categories/fila.html">Fila</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Cierra Nav-->
+    
+    <main class="main">
+        <h1>Contactanos</h1>
+        <form action="404.html">
+            <fieldset class="border">
+                <legend>¡Dejanos tu consulta!</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"  required>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="prefijo">Seleccione el prefijo telefónico de su país</label>
+                <select name="prefijo" id="prefijo">
+                    <option value="Argentina">Argentina (+54)</option>
+                    <option value="Alemania">Alemania (+49)</option>
+                    <option value="Australia">Australia(+61)</option>
+                    <option value="Austria">Austria (+43)</option>
+                    <option value="Belgica">Bélgica (+32)</option>
+                    <option value="Bulgaria">Bulgaria (+359)</option>
+                    <option value="Canada">Canadá (+1)</option>
+                    <option value="Colombia">Colombia (+57)</option>
+                    <option value="Croacia">Croacia (+385)</option>
+                    <option value="Eslovaquia">Eslovaquia (+421)</option>
+                    <option value="Eslovenia">Eslovenia (+386)</option>
+                    <option value="España">España (+34)</option>
+                    <option value="Estados Unidos">Estados Unidos (+1)</option>
+                    <option value="Estonia">Estonia (+372)</option>
+                    <option value="Finlandia">Finlandia (+358)</option>
+                    <option value="Francia">Francia (+33)</option>
+                    <option value="Grecia">Grecia (+30)</option>
+                    <option value="Holanda">Holanda (+31)</option>
+                    <option value="Irlanda">Irlanda (+353)</option>
+                    <option value="Islandia">Islandia (+354)</option>
+                    <option value="Italia">Italia (+39)</option>
+                    <option value="Letonia">Letonia (+371)</option>
+                    <option value="Lituania">Lituania (+370)</option>
+                    <option value="Luxemburgo">Luxemburgo (+352)</option>
+                    <option value="Malta">Malta (+356)</option>
+                    <option value="Marruecos">Marruecos (+212)</option>
+                    <option value="Mexico">México (+52)</option>
+                    <option value="Noruega">Noruega (+47)</option>
+                    <option value="Polonia">Polonia (+48)</option>
+                    <option value="Portugal">Portugal (+351)</option>
+                    <option value="Reino Unido">Reino Unido (+44)</option>
+                    <option value="Rusia">Rusia (+7)</option>
+                    <option value="Suecia">Suecia (+46)</option>
+                    <option value="Suiza">Suiza (+41)</option>
+                    <option value="Venezuela">Venezuela (+58)</option>
+                </select>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <label for="hombre">Soy hombre</label>
+                <input type="radio" name="sexo" value="Hombre" id="hombre">
+                <label for="mujer">Soy mujer</label>
+                <input type="radio" name="sexo" value="Mujer" id="mujer">
+                <label for="consulta">Consulta</label>
+                <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Escribe aquí..." required></textarea>
+                <div class="d-flex justify-content-center pt-3">
+                    <input type="reset" value="Cancelar" class="btn btn-secondary mx-2">
+                    <input type="submit" value="Enviar" class="btn btn-primary mx-2">
+                </div>
+            </fieldset>    
+        </form>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__newsletter">
+            <form action="404.html">
+                <label for="email">¡Enterate de nuestras promociones antes que nadie!</label>
+                <input type="email" id="email" placeholder="Tu correo electrónico" name="email">
+                <button type="submit">
+                    <i class="far fa-arrow-alt-circle-right"></i>
+                </button>
+            </form> 
+        </section>
+        <section class="footer__info">
+            <nav>
+                <h4>Nosotros</h4>    
+                <ul>  
+                    <li><a href="nosotros.html">¿Quiénes somos?</a></li>    
+                    <li><a href="shipping-and-footer/politica-de-privacidad.html">Politica de privacidad</a></li>   
+                </ul>
+            </nav>    
+            <nav>  
+                <h4>Ayuda</h4>    
+                <ul>  
+                    <li><a href="preguntas-frecuentes.html#comoComprar">¿Cómo comprar?</a></li>    
+                    <li><a href="preguntas-frecuentes.html#mediosDePago">Medios de pago</a></li>   
+                    <li><a href="preguntas-frecuentes.html#costosDeEnvio">Costos de envío</a></li>   
+                    <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+                </ul>
+            </nav>  
+            <nav>
+                <h4>Atención al cliente</h4>    
+                <ul>  
+                    <li><a href="https://web.whatsapp.com/send?phone=+5492215137609&text=Hola%20Coderhouse!%20C%C3%B3mo%20est%C3%A1n?%20Tengo%20una%20consulta%20sobre" target="_blank">+54 9 11 1234-5678</a></li>    
+                    <li><a href="https://goo.gl/maps/5fcGT1KgZugcbyL1A" target="_blank">Calle 1234</a></li>   
+                    <li>Lunes a Viernes de 9 a 18 hs</li>   
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__redes">
+                <h4>Seguinos</h4> 
+                <a href="https://www.instagram.com/coderhouse" target="_blank"><i class="fab fa-instagram"></i></a> 
+                <a href="https://www.facebook.com/CoderHouse" target="_blank"><i class="fab fa-facebook-square"></i></a> 
+                <a href="https://twitter.com/CODERHOUSE" target="_blank"><i class="fab fa-twitter"></i></a> 
+            </nav>
+        </section>    
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
